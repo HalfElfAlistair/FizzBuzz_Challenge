@@ -91,3 +91,5 @@ The friend who set me the challenge.
 I was successful in both of my aims. Completing this without having to look at hints or anything was really important for my confidence as it showed I am progressing and can get the hang of this.
 
 Admittedly, this challenge took me about an hour to do which is a long time. Definitely something that will get better as I go along though so I'm not too worried. I've read it's something that gets set in interviews sometimes so it's important I can reach a stage where producing code like this only takes me a few minutes.
+
+At present it's pretty basic, just using an alert system. Once I've learned more I'll look into making it more user friendly and visually appealing.
