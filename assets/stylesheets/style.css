@@ -1,0 +1,53 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+    line-height: 1.6;
+    background-color: #67676F;
+}
+
+h1{
+    color: #001011;
+    text-align: center;
+}
+
+h2 {
+    color: #67676F;
+}
+
+p {
+    color: #162526;
+}
+
+#intro,
+#rules {
+    background-color: #F0F1EE;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 3px;
+}
+
+#count {
+    display: none;
+}
+
+#counter {
+    padding: 5% 32%;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    border-radius: 3px;
+    border: solid 2px #162526;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#fb-result {
+    background-color: #F0F1EE;
+    margin: 5% 20%;
+    padding: 5%;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
