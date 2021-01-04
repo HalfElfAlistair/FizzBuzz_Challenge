@@ -9,7 +9,43 @@
 			  height: auto;
 			}
         </style>
-        <script src="fizzbuzz.js"></script>
+		<!-- <script type="module" src="fizzbuzz.js"></script> -->
+		<script>
+    function fizzbuzzCounter() {
+	let value = parseInt(document.getElementById('count').value, 10);
+	if (value >= 100) {
+        value = 0;
+    }
+	value++;
+	document.getElementById('count').value = value;
+	let result = value;
+	if ((value % 3 == 0) && (value % 5 == 0)) {
+    document.getElementById('fb-result').innerHTML = 'FizzBuzz';
+    } else if (result % 3 == 0) {
+    document.getElementById('fb-result').innerHTML = 'Fizz';
+    } else if (value % 5 == 0) {
+    document.getElementById('fb-result').innerHTML = 'Buzz';
+    } else {
+	document.getElementById('fb-result').innerHTML = result;
+	}
+}
+		</script>
     </head>
     <body>
+		<div id="intro">
+			<h1>FizzBuzz Challenge</h1>
+			<p>A simple JavaScript challenge based on a word/numbers game.</p>
+		</div>
+		<div id="rules">
+			<h2>The Game</h2>
+			<p>The game works by people calling out numbers in order but replacing the number with the word 'Fizz' (when a multiple of 3), 'Buzz' when a multiple of 5 and 'FizzBuzz' when a multiple of both 3 and 5.</p>
+			<p>For example at 7 the program should call 7.<br><br>At 18 it should call 'Fizz'.<br><br>At 20 it should call 'Buzz'.<br><br>At 15 it should call 'FizzBuzz'.</p>
+			<p>When actually playing the game you would continue until you had a winner but I've limited the program to run til 100, as suggested by challenge briefs online.</p>
+			<p>To try it out; keep hitting the button below to increment the counter.</p>
+		</div>
+		<div id="challenge">
+			<input value="Click Here" onclick="fizzbuzzCounter()" type="button" id="counter">
+			<input type="text" id="count" value="0"/>
+			<p id="fb-result" value="0">0</p>
+		</div>
     </body>
