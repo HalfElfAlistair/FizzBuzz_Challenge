@@ -8,7 +8,6 @@ body {
 
 h1{
     color: #001011;
-    text-align: center;
 }
 
 h2 {
@@ -27,12 +26,16 @@ p {
     border-radius: 3px;
 }
 
+#intro {
+    text-align: center;
+}
+
 #count {
     display: none;
 }
 
 #counter {
-    padding: 5% 32%;
+    padding: 5% 0;
     position: relative;
     left: 50%;
     margin-right: -50%;
@@ -41,6 +44,7 @@ p {
     border: solid 2px #162526;
     font-size: 16px;
     font-weight: bold;
+    width: 90%;
 }
 
 #fb-result {
@@ -50,4 +54,71 @@ p {
     border-radius: 3px;
     text-align: center;
     font-weight: bold;
+}
+
+
+@media only screen and (min-width: 500px) {
+    #counter {
+        padding: 4% 0;
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+    p,
+    #counter {
+		font-size: 17px;
+    }
+
+    #counter {
+        padding: 3% 0;
+    }
+
+    #fb-result {
+        font-size: 26px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #intro,
+    #rules {
+        width: 800px;
+        margin: 5% auto;
+    }
+
+    h1 {
+		font-size: 38px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+    p,
+    #counter {
+		font-size: 18px;
+    }
+    
+    #counter {
+        width: 900px;
+        padding: 2% 0;
+    }
+
+    #fb-result {
+        width: 600px;
+        margin: 5% auto;
+        font-size: 28px;
+    }
+
 }
