@@ -68,7 +68,7 @@ Alistair Sinclair-Smith
 
 Email: [ajss90@hotmail.co.uk](ajss90@hotmail.co.uk)
 
-Github: [HalfElfAlistair](https://github.com/HalfElfAlistair)
+Github: [alistairjss90@gmail.com](alistairjss90@gmail.com)
 
 
 ## Acknowledgments
