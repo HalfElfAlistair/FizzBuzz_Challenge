@@ -62,6 +62,10 @@ Running this project locally should be nice and easy!
 
 - Visual Studio Code
 
+- Node.js
+
+- Chrome Devtools
+
 ## Author
 
 Alistair Sinclair-Smith
